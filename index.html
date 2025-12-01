@@ -40,6 +40,16 @@
       h1, h2, h3, h4, h5, h6 {
         font-family: 'Oswald', sans-serif;
       }
+      .scrollbar-hide {
+        /* For IE, Edge and Firefox */
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        /* For Chrome, Safari, and Opera */
+        display: none;
+    }
     </style>
   <script type="importmap">
 {
