@@ -5,6 +5,7 @@ import About from './sections/About';
 import Plans from './sections/Plans';
 import Facilities from './sections/Facilities';
 import Contact from './sections/Contact';
+import Testimonials from './sections/Testimonials';
 
 const App: React.FC = () => {
   // Theme state: defaults to dark for that "premium gym" look initially, or checks local storage
@@ -40,8 +41,10 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <About />
-        <Plans />
         <Facilities />
+        <Plans />
+        <Testimonials />
+       
         <Contact />
       </main>
     </div>
